@@ -1,0 +1,66 @@
+﻿body {
+  background-color: orange;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+}
+
+nav {
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+section {
+  padding: 50px;
+}
+
+form {
+  background-color: red;
+  padding: 20px;
+  border: 1px solid purple;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: yellow;
+  color: blue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
